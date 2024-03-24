@@ -1,0 +1,249 @@
+0 verbose cli /opt/homebrew/Cellar/node/19.4.0_1/bin/node /opt/homebrew/bin/npm
+1 info using npm@9.2.0
+2 info using node@v19.4.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/Users/arnabseal/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/opt/homebrew/etc/npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:setEnvs Completed in 0ms
+15 timing config:load Completed in 8ms
+16 timing npm:load:configload Completed in 8ms
+17 timing npm:load:mkdirpcache Completed in 0ms
+18 timing npm:load:mkdirplogs Completed in 1ms
+19 verbose title npm install snyk-to-html
+20 verbose argv "install" "snyk-to-html" "--global"
+21 timing npm:load:setTitle Completed in 2ms
+22 timing config:load:flatten Completed in 1ms
+23 timing npm:load:display Completed in 2ms
+24 verbose logfile logs-max:10 dir:/Users/arnabseal/.npm/_logs/2023-04-12T05_25_17_181Z-
+25 verbose logfile /Users/arnabseal/.npm/_logs/2023-04-12T05_25_17_181Z-debug-0.log
+26 timing npm:load:logFile Completed in 2ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 15ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 2ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 silly fetch manifest snyk-to-html@*
+37 http fetch GET 200 https://registry.npmjs.org/npm 762ms (cache updated)
+38 http fetch GET 200 https://registry.npmjs.org/snyk-to-html 1849ms (cache miss)
+39 silly placeDep ROOT snyk-to-html@2.3.6 OK for:  want: *
+40 silly fetch manifest chalk@^2.4.2
+41 silly fetch manifest commander@^4.1.1
+42 silly fetch manifest debug@^4.1.1
+43 silly fetch manifest handlebars@^4.7.7
+44 silly fetch manifest lodash.isempty@^4.4.0
+45 silly fetch manifest lodash.orderby@^4.6.0
+46 silly fetch manifest marked@^4.0.12
+47 silly fetch manifest moment@^2.29.4
+48 silly fetch manifest source-map-support@^0.5.16
+49 silly fetch manifest uglify-js@^3.15.1
+50 http fetch GET 200 https://registry.npmjs.org/commander 121ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/chalk 125ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/source-map-support 180ms (cache revalidated)
+53 http fetch GET 200 https://registry.npmjs.org/lodash.isempty 191ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/lodash.orderby 193ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/debug 259ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/moment 258ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/marked 331ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/handlebars 335ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/uglify-js 1467ms (cache miss)
+60 timing idealTree:#root Completed in 3335ms
+61 silly placeDep node_modules/snyk-to-html chalk@2.4.2 OK for: snyk-to-html@2.3.6 want: ^2.4.2
+62 silly placeDep node_modules/snyk-to-html commander@4.1.1 OK for: snyk-to-html@2.3.6 want: ^4.1.1
+63 silly placeDep node_modules/snyk-to-html debug@4.3.4 OK for: snyk-to-html@2.3.6 want: ^4.1.1
+64 silly placeDep node_modules/snyk-to-html handlebars@4.7.7 OK for: snyk-to-html@2.3.6 want: ^4.7.7
+65 silly placeDep node_modules/snyk-to-html lodash.isempty@4.4.0 OK for: snyk-to-html@2.3.6 want: ^4.4.0
+66 silly placeDep node_modules/snyk-to-html lodash.orderby@4.6.0 OK for: snyk-to-html@2.3.6 want: ^4.6.0
+67 silly placeDep node_modules/snyk-to-html marked@4.3.0 OK for: snyk-to-html@2.3.6 want: ^4.0.12
+68 silly placeDep node_modules/snyk-to-html moment@2.29.4 OK for: snyk-to-html@2.3.6 want: ^2.29.4
+69 silly placeDep node_modules/snyk-to-html source-map-support@0.5.21 OK for: snyk-to-html@2.3.6 want: ^0.5.16
+70 silly placeDep node_modules/snyk-to-html uglify-js@3.17.4 OK for: snyk-to-html@2.3.6 want: ^3.15.1
+71 silly fetch manifest ansi-styles@^3.2.1
+72 silly fetch manifest escape-string-regexp@^1.0.5
+73 silly fetch manifest supports-color@^5.3.0
+74 silly fetch manifest ms@2.1.2
+75 silly fetch manifest minimist@^1.2.5
+76 silly fetch manifest neo-async@^2.6.0
+77 silly fetch manifest source-map@^0.6.1
+78 silly fetch manifest wordwrap@^1.0.0
+79 silly fetch manifest buffer-from@^1.0.0
+80 silly fetch manifest source-map@^0.6.0
+81 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 71ms (cache revalidated)
+82 http fetch GET 200 https://registry.npmjs.org/buffer-from 69ms (cache revalidated)
+83 http fetch GET 200 https://registry.npmjs.org/source-map 76ms (cache revalidated)
+84 http fetch GET 200 https://registry.npmjs.org/minimist 84ms (cache miss)
+85 http fetch GET 200 https://registry.npmjs.org/source-map 95ms (cache revalidated)
+86 http fetch GET 200 https://registry.npmjs.org/wordwrap 98ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/ms 140ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/ansi-styles 148ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/supports-color 166ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/neo-async 166ms (cache miss)
+91 timing idealTree:node_modules/snyk-to-html Completed in 183ms
+92 silly placeDep node_modules/snyk-to-html ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+93 silly placeDep node_modules/snyk-to-html escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+94 silly placeDep node_modules/snyk-to-html supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+95 silly fetch manifest color-convert@^1.9.0
+96 silly fetch manifest has-flag@^3.0.0
+97 http fetch GET 200 https://registry.npmjs.org/has-flag 69ms (cache miss)
+98 http fetch GET 200 https://registry.npmjs.org/color-convert 77ms (cache miss)
+99 timing idealTree:node_modules/snyk-to-html/node_modules/chalk Completed in 80ms
+100 silly placeDep node_modules/snyk-to-html color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+101 silly fetch manifest color-name@1.1.3
+102 http fetch GET 200 https://registry.npmjs.org/color-name 74ms (cache miss)
+103 timing idealTree:node_modules/snyk-to-html/node_modules/ansi-styles Completed in 75ms
+104 silly placeDep node_modules/snyk-to-html color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+105 timing idealTree:node_modules/snyk-to-html/node_modules/color-convert Completed in 1ms
+106 timing idealTree:node_modules/snyk-to-html/node_modules/color-name Completed in 0ms
+107 timing idealTree:node_modules/snyk-to-html/node_modules/commander Completed in 0ms
+108 silly placeDep node_modules/snyk-to-html ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+109 timing idealTree:node_modules/snyk-to-html/node_modules/debug Completed in 1ms
+110 timing idealTree:node_modules/snyk-to-html/node_modules/escape-string-regexp Completed in 0ms
+111 silly placeDep node_modules/snyk-to-html minimist@1.2.8 OK for: handlebars@4.7.7 want: ^1.2.5
+112 silly placeDep node_modules/snyk-to-html neo-async@2.6.2 OK for: handlebars@4.7.7 want: ^2.6.0
+113 silly placeDep node_modules/snyk-to-html source-map@0.6.1 OK for: handlebars@4.7.7 want: ^0.6.1
+114 silly placeDep node_modules/snyk-to-html wordwrap@1.0.0 OK for: handlebars@4.7.7 want: ^1.0.0
+115 timing idealTree:node_modules/snyk-to-html/node_modules/handlebars Completed in 37ms
+116 timing idealTree:node_modules/snyk-to-html/node_modules/lodash.isempty Completed in 0ms
+117 timing idealTree:node_modules/snyk-to-html/node_modules/lodash.orderby Completed in 0ms
+118 timing idealTree:node_modules/snyk-to-html/node_modules/marked Completed in 0ms
+119 timing idealTree:node_modules/snyk-to-html/node_modules/minimist Completed in 0ms
+120 timing idealTree:node_modules/snyk-to-html/node_modules/moment Completed in 0ms
+121 timing idealTree:node_modules/snyk-to-html/node_modules/ms Completed in 0ms
+122 timing idealTree:node_modules/snyk-to-html/node_modules/neo-async Completed in 0ms
+123 timing idealTree:node_modules/snyk-to-html/node_modules/source-map Completed in 0ms
+124 silly placeDep node_modules/snyk-to-html buffer-from@1.1.2 OK for: source-map-support@0.5.21 want: ^1.0.0
+125 timing idealTree:node_modules/snyk-to-html/node_modules/source-map-support Completed in 0ms
+126 timing idealTree:node_modules/snyk-to-html/node_modules/buffer-from Completed in 0ms
+127 silly placeDep node_modules/snyk-to-html has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+128 timing idealTree:node_modules/snyk-to-html/node_modules/supports-color Completed in 1ms
+129 timing idealTree:node_modules/snyk-to-html/node_modules/has-flag Completed in 0ms
+130 timing idealTree:node_modules/snyk-to-html/node_modules/uglify-js Completed in 0ms
+131 timing idealTree:node_modules/snyk-to-html/node_modules/wordwrap Completed in 0ms
+132 timing idealTree:buildDeps Completed in 3715ms
+133 timing idealTree:fixDepFlags Completed in 1ms
+134 timing idealTree Completed in 3719ms
+135 timing reify:loadTrees Completed in 3722ms
+136 timing reify:diffTrees Completed in 1ms
+137 silly reify moves {}
+138 timing reify:retireShallow Completed in 1ms
+139 timing reify:createSparse Completed in 2ms
+140 timing reify:loadBundles Completed in 0ms
+141 silly tarball no local data for snyk-to-html@https://registry.npmjs.org/snyk-to-html/-/snyk-to-html-2.3.6.tgz. Extracting by manifest.
+142 silly tarball no local data for minimist@https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz. Extracting by manifest.
+143 silly tarball no local data for neo-async@https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz. Extracting by manifest.
+144 silly tarball no local data for wordwrap@https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz. Extracting by manifest.
+145 silly tarball no local data for has-flag@https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz. Extracting by manifest.
+146 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz. Extracting by manifest.
+147 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz. Extracting by manifest.
+148 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+149 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz. Extracting by manifest.
+150 silly tarball no local data for uglify-js@https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.4.tgz. Extracting by manifest.
+151 silly tarball no local data for supports-color@https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz. Extracting by manifest.
+152 silly tarball no local data for moment@https://registry.npmjs.org/moment/-/moment-2.29.4.tgz. Extracting by manifest.
+153 silly tarball no local data for marked@https://registry.npmjs.org/marked/-/marked-4.3.0.tgz. Extracting by manifest.
+154 silly tarball no local data for lodash.orderby@https://registry.npmjs.org/lodash.orderby/-/lodash.orderby-4.6.0.tgz. Extracting by manifest.
+155 silly tarball no local data for lodash.isempty@https://registry.npmjs.org/lodash.isempty/-/lodash.isempty-4.4.0.tgz. Extracting by manifest.
+156 silly tarball no local data for handlebars@https://registry.npmjs.org/handlebars/-/handlebars-4.7.7.tgz. Extracting by manifest.
+157 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.4.tgz. Extracting by manifest.
+158 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-4.1.1.tgz. Extracting by manifest.
+159 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz. Extracting by manifest.
+160 silly tarball no local data for escape-string-regexp@https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz. Extracting by manifest.
+161 timing reifyNode:node_modules/snyk-to-html/node_modules/buffer-from Completed in 40ms
+162 timing reifyNode:node_modules/snyk-to-html/node_modules/source-map-support Completed in 40ms
+163 timing reifyNode:node_modules/snyk-to-html/node_modules/source-map Completed in 44ms
+164 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-3.2.1.tgz 68ms (cache miss)
+165 timing reifyNode:node_modules/snyk-to-html/node_modules/ansi-styles Completed in 82ms
+166 http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-5.5.0.tgz 68ms (cache miss)
+167 timing reifyNode:node_modules/snyk-to-html/node_modules/supports-color Completed in 82ms
+168 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 78ms (cache miss)
+169 timing reifyNode:node_modules/snyk-to-html/node_modules/ms Completed in 91ms
+170 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-1.9.3.tgz 88ms (cache miss)
+171 timing reifyNode:node_modules/snyk-to-html/node_modules/color-convert Completed in 100ms
+172 http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-3.0.0.tgz 90ms (cache miss)
+173 timing reifyNode:node_modules/snyk-to-html/node_modules/has-flag Completed in 101ms
+174 http fetch GET 200 https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz 100ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz 99ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.3.tgz 98ms (cache miss)
+177 timing reifyNode:node_modules/snyk-to-html/node_modules/color-name Completed in 111ms
+178 timing reifyNode:node_modules/snyk-to-html/node_modules/minimist Completed in 111ms
+179 timing reifyNode:node_modules/snyk-to-html/node_modules/wordwrap Completed in 114ms
+180 http fetch GET 200 https://registry.npmjs.org/snyk-to-html/-/snyk-to-html-2.3.6.tgz 112ms (cache miss)
+181 timing reifyNode:node_modules/snyk-to-html Completed in 122ms
+182 http fetch GET 200 https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz 115ms (cache miss)
+183 timing reifyNode:node_modules/snyk-to-html/node_modules/neo-async Completed in 125ms
+184 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.4.tgz 128ms (cache miss)
+185 timing reifyNode:node_modules/snyk-to-html/node_modules/debug Completed in 147ms
+186 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-4.1.1.tgz 133ms (cache miss)
+187 timing reifyNode:node_modules/snyk-to-html/node_modules/commander Completed in 154ms
+188 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz 143ms (cache miss)
+189 timing reifyNode:node_modules/snyk-to-html/node_modules/escape-string-regexp Completed in 164ms
+190 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz 144ms (cache miss)
+191 timing reifyNode:node_modules/snyk-to-html/node_modules/chalk Completed in 164ms
+192 http fetch GET 200 https://registry.npmjs.org/lodash.isempty/-/lodash.isempty-4.4.0.tgz 150ms (cache miss)
+193 timing reifyNode:node_modules/snyk-to-html/node_modules/lodash.isempty Completed in 169ms
+194 http fetch GET 200 https://registry.npmjs.org/lodash.orderby/-/lodash.orderby-4.6.0.tgz 178ms (cache miss)
+195 timing reifyNode:node_modules/snyk-to-html/node_modules/lodash.orderby Completed in 196ms
+196 http fetch GET 200 https://registry.npmjs.org/marked/-/marked-4.3.0.tgz 217ms (cache miss)
+197 timing reifyNode:node_modules/snyk-to-html/node_modules/marked Completed in 234ms
+198 http fetch GET 200 https://registry.npmjs.org/handlebars/-/handlebars-4.7.7.tgz 294ms (cache miss)
+199 timing reifyNode:node_modules/snyk-to-html/node_modules/handlebars Completed in 313ms
+200 http fetch GET 200 https://registry.npmjs.org/uglify-js/-/uglify-js-3.17.4.tgz 330ms (cache miss)
+201 timing reifyNode:node_modules/snyk-to-html/node_modules/uglify-js Completed in 343ms
+202 http fetch GET 200 https://registry.npmjs.org/moment/-/moment-2.29.4.tgz 334ms (cache miss)
+203 timing reifyNode:node_modules/snyk-to-html/node_modules/moment Completed in 349ms
+204 timing reify:unpack Completed in 350ms
+205 timing reify:unretire Completed in 0ms
+206 timing build:queue Completed in 0ms
+207 timing build:link:node_modules/snyk-to-html/node_modules/handlebars Completed in 0ms
+208 timing build:link:node_modules/snyk-to-html Completed in 1ms
+209 timing build:link:node_modules/snyk-to-html/node_modules/marked Completed in 0ms
+210 timing build:link:node_modules/snyk-to-html/node_modules/uglify-js Completed in 0ms
+211 timing build:link Completed in 1ms
+212 timing build:deps Completed in 1ms
+213 timing build Completed in 1ms
+214 timing reify:build Completed in 3ms
+215 timing reify:trash Completed in 0ms
+216 timing reify Completed in 4084ms
+217 silly ADD node_modules/snyk-to-html
+218 silly ADD node_modules/snyk-to-html/node_modules/has-flag
+219 silly ADD node_modules/snyk-to-html/node_modules/buffer-from
+220 silly ADD node_modules/snyk-to-html/node_modules/wordwrap
+221 silly ADD node_modules/snyk-to-html/node_modules/source-map
+222 silly ADD node_modules/snyk-to-html/node_modules/neo-async
+223 silly ADD node_modules/snyk-to-html/node_modules/minimist
+224 silly ADD node_modules/snyk-to-html/node_modules/ms
+225 silly ADD node_modules/snyk-to-html/node_modules/color-name
+226 silly ADD node_modules/snyk-to-html/node_modules/color-convert
+227 silly ADD node_modules/snyk-to-html/node_modules/supports-color
+228 silly ADD node_modules/snyk-to-html/node_modules/escape-string-regexp
+229 silly ADD node_modules/snyk-to-html/node_modules/ansi-styles
+230 silly ADD node_modules/snyk-to-html/node_modules/uglify-js
+231 silly ADD node_modules/snyk-to-html/node_modules/source-map-support
+232 silly ADD node_modules/snyk-to-html/node_modules/moment
+233 silly ADD node_modules/snyk-to-html/node_modules/marked
+234 silly ADD node_modules/snyk-to-html/node_modules/lodash.orderby
+235 silly ADD node_modules/snyk-to-html/node_modules/lodash.isempty
+236 silly ADD node_modules/snyk-to-html/node_modules/handlebars
+237 silly ADD node_modules/snyk-to-html/node_modules/debug
+238 silly ADD node_modules/snyk-to-html/node_modules/commander
+239 silly ADD node_modules/snyk-to-html/node_modules/chalk
+240 timing command:install Completed in 4088ms
+241 notice
+241 notice New [33mminor[39m version of npm available! [31m9.2.0[39m -> [32m9.6.4[39m
+241 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v9.6.4[39m
+241 notice Run [32mnpm install -g npm@9.6.4[39m to update!
+241 notice
+242 verbose exit 0
+243 timing npm Completed in 4111ms
+244 info ok
